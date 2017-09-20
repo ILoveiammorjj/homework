@@ -2,17 +2,17 @@
 
 using namespace std;
 
-const int range = 1000; // свойство распределения простых чисел n/ln(n)
+const int range = 1000; // СЃРІРѕР№СЃС‚РІРѕ СЂР°СЃРїСЂРµРґРµР»РµРЅРёСЏ РїСЂРѕСЃС‚С‹С… С‡РёСЃРµР» n/ln(n)
 const int maxN = 8;
 
-bool a[range]; // смотрим с 2
-int field[maxN+2][maxN+2]; // +2 смотреть границу
+bool a[range]; // СЃРјРѕС‚СЂРёРј СЃ 2
+int field[maxN+2][maxN+2]; // +2 СЃРјРѕС‚СЂРµС‚СЊ РіСЂР°РЅРёС†Сѓ
 int primeNum[range];
 
 void findPrime() { //
     int q = 0;
     for(int i = 2; i < range; ++i) {
-        if(a[i] == 0) {  // i простое
+        if(a[i] == 0) {  // i РїСЂРѕСЃС‚РѕРµ
             primeNum[q++] = i;
             for(int j = i+i; j < range; j += i) {
                 a[j] = 1;
