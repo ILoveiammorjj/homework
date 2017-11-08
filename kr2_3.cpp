@@ -16,6 +16,7 @@ int main() {
 	for(auto it = m.begin(); it != m.end(); ++it) {
 		auto v = it->second;
 		sort(v.begin(), v.end());
+		reverse(v.begin(), v.end());
 		auto cur = v.begin();
 		for(auto itv = v.begin() + 1; itv != v.end(); ++itv) {
 			if(itv->first + itv->second <= cur->first) {
