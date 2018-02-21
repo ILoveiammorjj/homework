@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1519220153 source:/home/ulyana/Projects/idemake/hello.cpp
+	<iostream>
+	"functions.h"
+
+1519220153 /home/ulyana/Projects/idemake/functions.h
+
+1519220153 source:/home/ulyana/Projects/idemake/main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"functions.h"
+
+1519220153 source:/home/ulyana/Projects/idemake/poww.cpp
+	"functions.h"
+
