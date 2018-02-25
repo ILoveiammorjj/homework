@@ -1,18 +1,18 @@
 
 binary: main.o libworld.so
-	gcc -o binary main.o -L. -lworld -Wl,-rpath,.
+	g++ -o binary main.o -L. -lworld -Wl,-rpath,.
 
 main.o: main.cpp
-	gcc -c main.cpp
+	g++ -c main.cpp
 
 libworld.so: hello.o poww.o
-	gcc -shared -o libworld.so hello.o poww.o
+	g++ -shared -o libworld.so hello.o poww.o
 
 hello.o: hello.cpp
-	gcc -c -fPIC hello.cpp
+	g++ -c -fPIC hello.cpp
 
 poww.o: poww.c
-	gcc -c -fPIC poww.cpp
+	g++ -c -fPIC poww.cpp
 
 clean:
 	rm -f *.o *.so binary
