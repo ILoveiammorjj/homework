@@ -1,0 +1,2 @@
+LD_LIBRARY_PATH=/dz1/dll
+export LD_LIBRARY_PATH
