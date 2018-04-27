@@ -1,10 +1,5 @@
 #include <iostream>
 
-template <class FuncType>
-void Apply( FuncType Func )
-{
-} /* End of 'Apply' function */
-
 template <class FuncType, class FirstType, class ...ArgsType>
 void Apply( FuncType Func, FirstType &First, ArgsType&... Args )
 {
