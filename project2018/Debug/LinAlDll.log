@@ -1,0 +1,27 @@
+﻿  matr.cpp
+c:\users\user\срр\matr.cpp(9): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\срр\matr.cpp(10): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\срр\matr.cpp(14): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\срр\matr.cpp(15): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\срр\matr.h(168): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\user\срр\matr.h(166): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\user\срр\matr.cpp(26): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Matr<double>::Print(std::ostream &)"
+  c:\users\user\срр\matr.cpp(8): note: выполняется компиляция ссылки на экземпляр шаблон класс "Matr<double>"
+c:\users\user\срр\matr.h(169): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\срр\matr.h(147): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\user\срр\matr.h(142): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\user\срр\matr.cpp(19): note: выполняется компиляция ссылки на экземпляр шаблон функции "Matr<double> Matr<double>::operator +(const Matr<double> &)"
+c:\users\user\срр\matr.h(148): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\срр\matr.h(95): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  c:\users\user\срр\matr.h(85): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\user\срр\matr.cpp(22): note: выполняется компиляция ссылки на экземпляр шаблон функции "double Matr<double>::Determinant(void)"
+c:\users\user\срр\matr.h(99): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\user\срр\matr.h(106): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\user\срр\matr.h(79): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\user\срр\matr.h(76): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\user\срр\matr.cpp(23): note: выполняется компиляция ссылки на экземпляр шаблон функции "Matr<double> Matr<double>::Transpose(void)"
+c:\users\user\срр\matr.h(80): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\срр\matr.h(37): warning C4101: j: неиспользованная локальная переменная
+  c:\users\user\срр\matr.h(35): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\user\срр\matr.h(105): note: выполняется компиляция ссылки на экземпляр шаблон функции "Matr<double> Matr<double>::GetMatr(int,int)"
+  LinAlDll.vcxproj -> C:\Users\User\срр\Debug\LinAlDll.dll
